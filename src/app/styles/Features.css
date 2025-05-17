@@ -1,0 +1,53 @@
+.features-section {
+  position: relative;
+  z-index: 2;
+  padding: 6rem 2rem;
+  color: rgb(12, 12, 12);
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #080808; /* Matches Vanta's midtone color */
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: rgba(24, 24, 24, 0.05); /* Transparent glass effect */
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 15px rgba(233, 232, 235, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 22px rgba(236, 234, 238, 0.4);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  color: #060606;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #0d0d0d;
+  line-height: 1.6;
+}

@@ -1,0 +1,48 @@
+.problem-section {
+  position: relative;
+  z-index: 2; /* Ensures it's above the Vanta background */
+  padding: 6rem 2rem;
+  color: rgb(12, 12, 12);
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.problem-heading {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #101010; /* Matches the Vanta highlight color */
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.problem-card {
+  background-color: rgba(252, 250, 250, 0.05); /* Subtle transparent card */
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 18px rgba(237, 240, 239, 0.3);
+}
+
+.problem-title {
+  font-size: 1.5rem;
+  color: #0d0e0d;
+  margin-bottom: 0.8rem;
+}
+
+.problem-description {
+  font-size: 1rem;
+  color: #0d0d0d;
+  line-height: 1.6;
+}

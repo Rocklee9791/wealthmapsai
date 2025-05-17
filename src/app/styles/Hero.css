@@ -1,0 +1,68 @@
+.hero-section {
+  position: relative;
+  z-index: 2; /* Ensure it's above Vanta background */
+  padding: 8rem 2rem 6rem;
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-family: 'Poppins', sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-section h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #0d0d0d; /* Highlight color matching animation */
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #0e0d0d;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  
+}
+
+.cta-button2 {
+  background-color: #0d0e0d;
+  color: #f7f3f3;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button2:hover {
+  background-color: #0d0e0d;
+  color:rgb(252, 249, 249);
+  padding: 0.8rem 1.6rem;
+  transform: translateY(-2px);
+}
+
+.cta-button2-outline {
+  background-color: #0b0b0b;
+  color: #fefefe;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button2-outline:hover {
+   background-color: #f8faf8;
+  color:rgb(8, 8, 8);
+  padding: 0.8rem 1.6rem;
+  transform: translateY(-2px);
+}

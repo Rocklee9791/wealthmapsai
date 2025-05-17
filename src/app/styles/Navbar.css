@@ -1,0 +1,59 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  backdrop-filter: blur(10px); /* Makes navbar readable over Vanta background */
+  background: rgba(16, 16, 16, 0.3); /* Dark semi-transparent background to match Vanta */
+  z-index: 10; /* Above the Vanta background */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0c0c0c;
+  margin: 0;
+}
+.logo:hover{
+  border-radius:10px;
+  color:rgb(237, 234, 234);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #070707;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f8f6f6;
+}
+
+.cta-button {
+  background-color: #0b0b0b;
+  color:rgb(243, 241, 241);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+padding:0.6rem 1.2rem;
+  transform: translateY(-2px);
+}
