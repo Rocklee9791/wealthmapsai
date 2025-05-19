@@ -13,7 +13,7 @@ export default function Navbar() {
         <a href="#features">Features</a>
         <a href="#workflow">Workflow</a>
         <a href="#about">About</a>
-        <Link href="/register-company">
+        <Link href="/register">
           <button className="cta-button">Register Company</button>
         </Link>
       </div>
